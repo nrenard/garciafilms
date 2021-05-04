@@ -10,6 +10,7 @@ export const Container = styled.div`
     font-family: ${({ theme }) => theme.fontFamilyJura};
     text-transform: uppercase;
     text-align: center;
+    font-size: 24px;
   }
 
   &:after {
@@ -25,6 +26,7 @@ export const Container = styled.div`
   @media (min-width: 768px) {
     h1 {
       text-align: left;
+      font-size: 40px;
     }
   }
 `;

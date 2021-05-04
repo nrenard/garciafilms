@@ -15,7 +15,7 @@ const Footer: React.FC = () => (
 
       <p>
         <img src={`${basePath}/phone.svg`} alt="phone" />
-        (51) 9151-0468
+        (51) 99151-0468
       </p>
 
       <p>
