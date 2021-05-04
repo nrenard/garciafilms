@@ -11,9 +11,10 @@ export const MenuMobileStyles = styled.div<{ isOpen: boolean }>`
   opacity: 0;
   width: 100%;
   height: 100%;
-  transition: 0.2s visibility, 0.2s opacity;
+  transition: 0.4s visibility, 0.4s opacity, 0.4s top;
   padding-top: 20px;
   overflow: auto;
+  top: 500px;
 
   > img {
     margin-left: 30px;
@@ -24,6 +25,7 @@ export const MenuMobileStyles = styled.div<{ isOpen: boolean }>`
   ${({ isOpen }) =>
     isOpen &&
     css`
+      top: 0;
       visibility: visible;
       opacity: 1;
     `};

@@ -38,7 +38,7 @@ const MenuMobile: React.FC<IProps> = ({
 
       <ContentHeader>
         <Menu>
-          <ItensMenu />
+          <ItensMenu onCloseMenu={closeMenu} />
         </Menu>
 
         <Bottom>
