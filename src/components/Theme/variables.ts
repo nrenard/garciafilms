@@ -1,4 +1,4 @@
-export default {
+const variables = {
   colors: {
     primary: '#00B0EF',
     secondary: '#0996D5',
@@ -17,3 +17,5 @@ export default {
     defaultShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
   },
 };
+
+export default variables;
