@@ -9,8 +9,7 @@ const Footer: React.FC = () => (
     <BottomContainer>
       <p>
         <img src={`${basePath}/pin.svg`} alt="pin" />
-        Av. Baltazar de Oliveira Garcia, 451 São Sebastião, Porto Alegre - RS,
-        91130-001
+        Av. Baltazar de Oliveira Garcia, 754 - São Sebastião, Porto Alegre - RS, 91130-000
       </p>
 
       <p>
